@@ -1,0 +1,32 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+body {
+    overflow-x: hidden;
+}
+
+.main-wrapper.main-wrapper-1 {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.custom-file-label {
+   padding-left: 1.2rem;
+   font-size: .8rem;
+}
+
+@media only screen and (max-width:800px){
+    .d-flex-custom {
+        display: flex;
+    }
+}
